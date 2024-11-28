@@ -3,76 +3,101 @@
 <head>
     <meta charset="UTF-8"> <!-- Caracteres e acentuação -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../assets/css/styles.css">
     <title>Portfólio de Lucas Oliveira de Lima</title> <!-- Aparece na aba do navegador -->
 </head>
-<body bgcolor="#f0f0f0"> 
+<body> 
     <a id="topo"></a> <!-- Âncora para o topo -->
-    <center><h1>Linguagem de Programação <font color="##008000">Python</font></h1></center>
+    <div class="menu">
+        <ul>
+            <li><a href="../index.html">Início</a></li>
+            <li><a href="sobre.html">Sobre Mim</a></li>
+            <li><a href="curriculo.html">Currículo</a></li>
+            <li><a href="projetos.html">Projetos</a></li>
+            <li><a href="contato.html">Contato</a></li>
+            <li><a href="python.html">Linguagem Python</a></li>
+        </ul>
+    </div>
+
+    <h1 class="titulo-pagina">
+        Linguagem de Programação <span class="destaque">Python</span>
+    </h1>
     <hr>
-
-    <h2>Navegue pelo Portfólio</h2>
-    <ul>
-        <li><a href="../index.html">Início</a></li>
-        <li><a href="sobre.html">Sobre Mim</a></li>
-        <li><a href="curriculo.html">Currículo</a></li>
-        <li><a href="projetos.html">Projetos</a></li>
-        <li><a href="contato.html">Contato</a></li>
-        <li><a href="python.html">Linguagem Python</a></li>
-    </ul>
-
-    <h2>
-        <img src="../imgs/python.png" alt="Logo do Python" width="30">
-        Introdução ao Python
-    </h2><br>
-    <p align="center">
-        <img src="../imgs/python1.png" alt="Logo do Python" width="500">
-    </p><br>
-    <p>Python é uma linguagem de programação de alto nível criada por Guido van Rossum e lançada em 1991. É conhecida por sua sintaxe clara e legível, tornando-a ideal para iniciantes e projetos complexos.</p>
-    <p>A filosofia do Python enfatiza a legibilidade do código e uma sintaxe que permite que os programadores expressem conceitos em menos linhas de código do que em outras linguagens.</p>
     
+    <section class="secao">
+        <h2 class="titulo-secao">
+            <img src="../imgs/python.png" alt="Logo do Python" class="icone-titulo">
+            Introdução
+        </h2>
+        <p class="imagem-centro">
+            <img src="../imgs/python1.png" alt="Ilustração da Linguagem Python" class="imagem-principal">
+        </p>
+        <p>
+            Python é uma linguagem de programação de alto nível criada por Guido van Rossum e lançada em 1991. 
+            É conhecida por sua sintaxe clara e legível, tornando-a ideal para iniciantes e projetos complexos.
+        </p>
+        <p>
+            A filosofia do Python enfatiza a legibilidade do código e uma sintaxe que permite que os programadores 
+            expressem conceitos em menos linhas de código do que em outras linguagens.
+        </p>
+    </section>
+    
+    <section class="secao">
+        <h2 class="titulo-secao">
+            <img src="../imgs/python.png" alt="Logo do Python" class="icone-titulo">
+            Características Principais
+        </h2>
+        <ul class="lista-caracteristicas">
+            <li><b>Sintaxe Simples:</b> Fácil de aprender e usar.</li>
+            <li><b>Linguagem Multiparadigma:</b> Suporta programação orientada a objetos, funcional e procedural.</li>
+            <li><b>Biblioteca Padrão Abrangente:</b> Muitas funcionalidades disponíveis sem necessidade de instalar pacotes adicionais.</li>
+            <li><b>Portabilidade:</b> Funciona em diferentes sistemas operacionais como Windows, macOS e Linux.</li>
+            <li><b>Comunidade Ativa:</b> Grande quantidade de recursos, tutoriais e suporte.</li>
+        </ul>
+    </section>
+    
+    <section class="secao">
+        <h2 class="titulo-secao">
+            <img src="../imgs/python.png" alt="Logo do Python" class="icone-titulo">
+            Por que Eu Gosto de Python
+        </h2>
+        <p>
+            Python é minha linguagem favorita por sua simplicidade e poder. Com Python, posso focar na lógica 
+            do problema sem me preocupar com complexidades sintáticas.
+        </p>
+    </section>    
 
-    <h2>
-        <img src="../imgs/python.png" alt="Logo do Python" width="30">
-        Características Principais
-    </h2>
-    <ul>
-        <li><b>Sintaxe Simples:</b> Fácil de aprender e usar.</li>
-        <li><b>Linguagem Multiparadigma:</b> Suporta programação orientada a objetos, funcional e procedural.</li>
-        <li><b>Biblioteca Padrão Abrangente:</b> Muitas funcionalidades disponíveis sem necessidade de instalar pacotes adicionais.</li>
-        <li><b>Portabilidade:</b> Funciona em diferentes sistemas operacionais como Windows, macOS e Linux.</li>
-        <li><b>Comunidade Ativa:</b> Grande quantidade de recursos, tutoriais e suporte.</li>
-    </ul>
-
-    <h2>
-        <img src="../imgs/python.png" alt="Logo do Python" width="30">
-        Por que Eu Gosto de Python
-    </h2>
-    <p>Python é minha linguagem favorita por sua simplicidade e poder. Com Python, posso focar na lógica do problema sem me preocupar com complexidades sintáticas.</p>
-
-    <h2>
-        <img src="../imgs/python.png" alt="Logo do Python" width="30">
-        Exemplos de Código em Python
-    </h2>
-    <pre>
+    <section class="secao">
+        <h2 class="titulo-secao">
+            <img src="../imgs/python.png" alt="Logo do Python" class="icone-titulo">
+            Exemplos de Código em Python
+        </h2>
+        <pre class="bloco-codigo">
     # Exemplo: Olá Mundo
     print("Olá, Mundo!")
-
+    
     # Exemplo: Função que soma dois números
     def soma(a, b):
         return a + b
-
+    
     resultado = soma(5, 7)
     print("O resultado é:", resultado)
-    </pre>
+        </pre>
+    </section>
+    
+    <section class="secao">
+        <h3 class="titulo-recursos">
+            Recursos Externos
+        </h3>
+        <ul class="lista-recursos">
+            <li><a href="https://www.python.org/" target="_blank">Site Oficial do Python</a></li>
+            <li><a href="https://docs.python.org/3/tutorial/" target="_blank">Tutorial Oficial do Python</a></li>
+        </ul>
+    </section>
+    
 
-    <h3>Recursos Externos</h3>
-    <ul>
-        <li><a href="https://www.python.org/" target="_blank">Site Oficial do Python</a></li>
-        <li><a href="https://docs.python.org/3/tutorial/" target="_blank">Tutorial Oficial do Python</a></li>
-    </ul>
-
-    <p align="right"><a href="#topo">Voltar ao topo da página</a></p>
-    <hr>
+    <a href="#topo" class="btn-voltar-topo">Voltar ao topo</a>
+    
     <footer>
         <p align="center">&copy; 2024 Lucas Oliveira de Lima</p>
         <p align="center">

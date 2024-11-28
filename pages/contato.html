@@ -1,25 +1,23 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <meta charset="UTF-8"> <!-- Caracteres e acentuação -->
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfólio de Lucas Oliveira de Lima</title> <!-- Aparece na aba do navegador -->
+    <link rel="stylesheet" href="../assets/css/styles.css">
+    <title>Portfólio de Lucas Oliveira de Lima</title>
 </head>
 <body bgcolor="#f0f0f0"> 
     <a id="topo"></a> <!-- Âncora para o topo -->
-    <center>
-        <h1>Contato</h1></center>
-    <hr>
-    
-    <h2>Navegue pelo Portfólio</h2>
-    <ul>
-        <li><a href="../index.html">Início</a></li>
-        <li><a href= "sobre.html">Sobre Mim</a></li>
-        <li><a href="curriculo.html">Currículo</a></li>
-        <li><a href="projetos.html">Projetos</a></li>
-        <li><a href="contato.html">Contato</a></li>
-        <li><a href="python.html">Linguagem Python</a></li>
-    </ul>
+    <div class="menu">
+        <ul>
+            <li><a href="../index.html">Início</a></li>
+            <li><a href="sobre.html">Sobre Mim</a></li>
+            <li><a href="curriculo.html">Currículo</a></li>
+            <li><a href="projetos.html">Projetos</a></li>
+            <li><a href="contato.html">Contato</a></li>
+            <li><a href="python.html">Linguagem Python</a></li>
+        </ul>
+    </div>
 
     <table>
         <tr>
@@ -40,7 +38,7 @@
         <p>
             <label>Estado: </label><br>
             <select name="estado" size="1">
-                <option value="AC">Acre</option>
+                <option></option>
                 <option value="AL">Alagoas</option>
                 <option value="AP">Amapá</option>
                 <option value="AM">Amazonas</option>
@@ -86,15 +84,27 @@
     </form>
 
     <h2>Conecte-se comigo:</h2>
-    <a href="https://www.linkedin.com/in/lucasoliveiradelima/" target="_blank"><img src="../imgs/linkedin.png" alt="LinkedIn" width="30"></a>
-    <a href="https://github.com/lucasDev2000" target="_blank"><img src="../imgs/github.png" alt="GitHub" width="30"></a>
+    <div class="social-links">
+        <a href="https://www.linkedin.com/in/lucasoliveiradelima/" target="_blank">
+            <img src="../imgs/linkedin.png" alt="LinkedIn" width="30"> LinkedIn
+        </a>
+        <a href="https://github.com/lucasDev2000" target="_blank">
+            <img src="../imgs/github.png" alt="GitHub" width="30"> GitHub
+        </a>
+    </div>
     
     <h2>Outras Formas de Contato</h2>
-    <p>Telefone: (61) 98229-8439</p>
-    <a href="mailto:contatooliveiralima@gmail.com">Envie-me um e-mail</a>
+    <div class="contact-info">
+        <p><img src="../imgs/phone.png" alt="Telefone" width="20"> Telefone: (61) 98229-8439</p>
+        <p><img src="../imgs/email.png" alt="E-mail" width="20"> 
+            <a href="mailto:contatooliveiralima@gmail.com">contatooliveiralima@gmail.com</a>
+        </p>
+    </div>
+    
+    
 
-    <p align="right"><a href="#topo">Voltar ao topo da página</a></p>
-    <hr>
+    <a href="#topo" class="btn-voltar-topo">Voltar ao topo</a>
+    
     <footer>
         <p align="center">&copy; 2024 Lucas Oliveira de Lima</p>
         <p align="center">

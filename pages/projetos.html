@@ -3,38 +3,43 @@
 <head>
     <meta charset="UTF-8"> <!-- Caracteres e acentuação -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../assets/css/styles.css">
     <title>Portfólio de Lucas Oliveira de Lima</title> <!-- Aparece na aba do navegador -->
 </head>
 <body bgcolor="#f0f0f0"> 
     <a id="topo"></a> <!-- Âncora para o topo -->
-    <center><h1>Projetos</h1></center>
-    <hr>
+    <div class="menu">
+        <ul>
+            <li><a href="../index.html">Início</a></li>
+            <li><a href="sobre.html">Sobre Mim</a></li>
+            <li><a href="curriculo.html">Currículo</a></li>
+            <li><a href="projetos.html">Projetos</a></li>
+            <li><a href="contato.html">Contato</a></li>
+            <li><a href="python.html">Linguagem Python</a></li>
+        </ul>
+    </div>
 
-    <h2>Navegue pelo Portfólio</h2>
-    <ul>
-        <li><a href="../index.html">Início</a></li>
-        <li><a href="sobre.html">Sobre Mim</a></li>
-        <li><a href="curriculo.html">Currículo</a></li>
-        <li><a href="projetos.html">Projetos</a></li>
-        <li><a href="contato.html">Contato</a></li>
-        <li><a href="python.html">Linguagem Python</a></li>
-    </ul>
+    <h1>Projetos</h1>
+    <hr>
 
     <h2>Projetos</h2>
     <h3>Projetos Recentes</h3>
     <ul>
-        <li>
-            <b>Jogo do Número secreto</b>
-            <p>O Jogo do Número Secreto é um projeto de programação que desenvolvi para praticar e demonstrar habilidades em lógica de programação e interação com o usuário. Trata-se de um jogo simples e interativo, onde o jogador tenta adivinhar um número escolhido aleatoriamente pelo computador.</p>
-            <p>Link: <a href="https://github.com/lucasDev2000/jogo-do-numero-secreto" target="_blank">GitHub</a></p>
+        <li class="projeto-um">
+            <b>Jogo do Número Secreto</b>
+            <p>O Jogo do Número Secreto é um projeto que criei para colocar em prática minhas habilidades em programação e, ao mesmo tempo, oferecer uma experiência divertida e interativa para os usuários. A ideia do jogo é simples: o sistema escolhe um número aleatório, e o jogador tenta adivinhar qual é, recebendo dicas se o número está acima ou abaixo da resposta correta. Esse processo torna o jogo envolvente e desafiador, incentivando o raciocínio lógico. Durante o desenvolvimento, pude explorar conceitos importantes, como a geração de números aleatórios e a validação de entradas do usuário, além de aprender a criar uma interação fluida e intuitiva. Este projeto representa minha dedicação ao aprendizado constante e minha vontade de transformar ideias simples em soluções que fazem a diferença.</p>
+            <img src="../imgs/jogo.jpeg" alt="Jogo do Número Secreto" class="imagem-projeto">
         </li>
+    
+        <li>
             <b>Site de Portfólio</b>
-            <p>Meu site pessoal que é um projeto desenvolvido para apresentar minhas habilidades, experiências e projetos de maneira organizada e acessível. Este portfólio foi construído utilizando apenas HTML puro, sem o uso de CSS ou JavaScript, demonstrando minha capacidade de criar sites funcionais mesmo com recursos limitados.</p>
-            <p>Link: <a href="../index.html" target="_blank">Portfólio</a></p>
+            <p>Este portfólio foi criado com o objetivo de apresentar de forma clara e acessível as minhas habilidades, experiências e projetos. A estrutura foi desenvolvida com HTML, garantindo que cada seção seja organizada e fácil de navegar. Com o uso de CSS, o design ganhou vida, trazendo detalhes como bordas arredondadas, sombras suaves e transições que deixam a experiência mais agradável e moderna. Além de ser responsivo, permitindo uma navegação consistente em diferentes dispositivos, o site também cumpre funções básicas essenciais, como destacar projetos recentes, compartilhar informações sobre minha trajetória e facilitar o contato com potenciais colaboradores ou empregadores. Este trabalho reflete meu compromisso com a simplicidade, eficiência e a busca por criar soluções que sejam funcionais e visualmente atraentes, mesmo com recursos básicos.</p>
+            <img src="../imgs/portfolio.jpeg" alt="Site de Portfólio" class="imagem-projeto">
         </li>
     </ul>
-    <p align="right"><a href="#topo">Voltar ao topo da página</a></p>
-    <hr>
+    
+    <a href="#topo" class="btn-voltar-topo">Voltar ao topo</a>
+
     <footer>
         <p align="center">&copy; 2024 Lucas Oliveira de Lima</p>
         <p align="center">
